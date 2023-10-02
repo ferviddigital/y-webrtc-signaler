@@ -11,12 +11,12 @@ To get a local copy up and running follow these simple steps.
 
 1. Clone repository
 ```sh
-git clone git@github.com:roymckenzie/y-webrtc-signaling.git
+git clone git@github.com:roymckenzie/y-webrtc-signaler.git
 ```
 
 2. Install NPM packages
 ```sh
-cd y-webrtc-signaling
+cd y-webrtc-signaler
 npm install
 ```
 
@@ -39,13 +39,13 @@ const provider = new WebrtcProvider('your-room-name', ydoc, {
 You can deploy this code on:
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/roymckenzie/y-webrtc-signaling)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/roymckenzie/y-webrtc-signaler)
 
 ### Render
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/roymckenzie/y-webrtc-signaling)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/roymckenzie/y-webrtc-signaler)
 
 ### Google Cloud
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/roymckenzie/y-webrtc-signaling)
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run?git_repo=https://github.com/roymckenzie/y-webrtc-signaler)
 
 ## Roadmap
 - [ ] Make easily deployable to cloud services
@@ -54,6 +54,6 @@ You can deploy this code on:
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-y-webrtc-signaling is licensed under the [MIT License](./LICENSE).
+y-webrtc-signaler is licensed under the [MIT License](./LICENSE).
 
 Roy McKenzie - [roy@roymckenzie.me](mailto:roy@roymckenzie.me)
