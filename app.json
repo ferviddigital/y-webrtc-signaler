@@ -1,0 +1,8 @@
+{
+  "name": "y-webrtc-signaling",
+  "description": "A WebSocket signaling server for y-webrtc peers.",
+  "repository": "https://github.com/roymckenzie/y-webrtc-signaling",
+  "keywords": [
+    "node", "express", "websockets", "yjs", "y-webrtc"
+  ]
+}

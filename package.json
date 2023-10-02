@@ -9,12 +9,22 @@
   },
   "name": "y-webrtc-signaling",
   "version": "0.1.0",
-  "description": "Signalling server for y-webrtc peers",
-  "main": "server.js",
+  "description": "A WebSocket signaling server for y-webrtc peers.",
+  "main": "src/server.js",
   "keywords": [
     "y-webrtc",
-    "Yjs"
+    "Yjs",
+    "websockets",
+    "webrtc"
   ],
-  "author": "Roy McKenzie <roy@roymckenzie.me>",
-  "license": "MIT"
+  "author": {
+    "name": "Roy McKenzie",
+    "email": "roy@roymckenzie.me",
+    "url": "https://roymckenzie.me"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roymckenzie/y-webrtc-signaling.git"
+  }
 }

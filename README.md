@@ -1,5 +1,5 @@
 # WebSocket signaling server for [y-webrtc](https://github.com/yjs/y-webrtc)
-A signaling server for [y-webrtc](https://github.com/yjs/y-webrtc) peers.
+A WebSocket signaling server for [y-webrtc](https://github.com/yjs/y-webrtc) peers.
 
 ## About
 This WebSocket signaling server listens for messages sent by y-webrtc implementations responding to `subscribe`, `unsubscribe`, `publish`, and `ping` messages from peers.
@@ -35,9 +35,14 @@ const provider = new WebrtcProvider('your-room-name', ydoc, {
 });
 ```
 
+## Deployment
+You can deploy this code on:
+
+### Heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 ## Roadmap
-- [ ] Make easily deployable to Cloudflare
-- [ ] Make easily deployable to Heroku
+- [ ] Make easily deployable to cloud services
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
