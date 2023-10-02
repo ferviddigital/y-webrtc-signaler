@@ -39,7 +39,7 @@ const provider = new WebrtcProvider('your-room-name', ydoc, {
 You can deploy this code on:
 
 ### Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/roymckenzie/y-webrtc-signaling)
 
 ## Roadmap
 - [ ] Make easily deployable to cloud services
