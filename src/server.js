@@ -26,7 +26,6 @@ wss.on('connection', (socket) => {
           subscribedTopics.add(topicName);
 
           const subscribers = topics.get(topicName) || new Set();
-
           subscribers.add(socket);
 
           if (!topics.has(topicName)) {
@@ -44,6 +43,7 @@ wss.on('connection', (socket) => {
       case 'unsubscribe':
         message.topics.forEach(topicName => {
           const subscribers = topics.get(topicName);
+
           if (subscribers) {
             subscribers.delete(socket);
           }
@@ -57,7 +57,7 @@ wss.on('connection', (socket) => {
     }
   });
 
-  socket.on('close', () => {
+  socket.on('close', (code) => {
     subscribedTopics.forEach(topicName => {
       const subscribers = topics.get(topicName) || new Set();
       subscribers.delete(socket);
@@ -66,6 +66,10 @@ wss.on('connection', (socket) => {
       }
     });
     subscribedTopics.clear();
+
+    if (code === 1005) {
+      socket.close();
+    }
   });
 
 });
