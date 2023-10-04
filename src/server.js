@@ -72,4 +72,8 @@ wss.on('connection', (socket) => {
     }
   });
 
+  socket.on('error', (error) => {
+    console.log(error);
+  })
+
 });
