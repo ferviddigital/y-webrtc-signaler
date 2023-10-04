@@ -19,12 +19,12 @@
   ],
   "author": {
     "name": "Roy McKenzie",
-    "email": "roy@roymckenzie.me",
-    "url": "https://roymckenzie.me"
+    "email": "roy@fervid.digital",
+    "url": "https://fervid.digital"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/roymckenzie/y-webrtc-signaler.git"
+    "url": "https://github.com/ferviddigital/y-webrtc-signaler.git"
   }
 }
